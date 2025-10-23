@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from typing import List, Dict, Any
+import json
 
 class FinancialAidFactGenerator:
     """
@@ -151,3 +152,39 @@ if __name__ == "__main__":
     for row in final_data[1:]:
         data_line = "| " + " | ".join(item.ljust(col_widths[i]) for i, item in enumerate(row)) + " |"
         print(data_line)
+
+
+def export_to_json(data: List[List[str]], filename: str = "financial_aid_facts.json"):
+    """
+    Converts the list-of-lists data (where the first list is the header)
+    into a list of dictionaries and exports it to a JSON file.
+    """
+    if not data or len(data) < 2:
+        print("Error: Data is empty or missing a header row. Cannot export to JSON.")
+        return
+
+    # Extract header and data rows
+    header = data[0]
+    data_rows = data[1:]
+
+    # Convert to list of dictionaries
+    json_data = []
+    for row in data_rows:
+        # Create a dictionary by zipping the header and the row data
+        # Handles cases where a row might be shorter/longer than the header
+        row_dict = dict(zip(header, row))
+        json_data.append(row_dict)
+
+    # Write the list of dictionaries to a JSON file
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            # Use indent=4 for a human-readable, pretty-printed JSON file
+            json.dump(json_data, f, ensure_ascii=False, indent=4)
+        print(f"\n✅ Successfully exported data to '{filename}'")
+    except Exception as e:
+        print(f"\n❌ An error occurred while writing the JSON file: {e}")
+
+# Execute the JSON export
+if __name__ == "__main__":
+    # The 'final_data' variable is available from the execution block above
+    export_to_json(final_data)
