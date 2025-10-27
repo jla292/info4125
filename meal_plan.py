@@ -49,7 +49,7 @@ for plan in meal_plans:
     for detail in plan["details"]:
         json_data.append({
             "id": entry_id,
-            "plan_name": plan_name,
+            "topic": plan_name,
             "text": detail,
             "source": source_url
         })
