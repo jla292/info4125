@@ -1,380 +1,443 @@
 [
     {
-        "id": 1,
-        "topic": "Graduate Meal Plans",
         "text": "Applications & Changing Plans",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Graduate Meal Plans"
     },
     {
-        "id": 2,
-        "topic": "Graduate Meal Plans",
         "text": "City Bucks",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Graduate Meal Plans"
     },
     {
-        "id": 3,
-        "topic": "Graduate Meal Plans",
         "text": "Deadlines & Terms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Graduate Meal Plans"
     },
     {
-        "id": 4,
-        "topic": "Graduate Meal Plans",
         "text": "Manage Your Account",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Graduate Meal Plans"
     },
     {
-        "id": 5,
-        "topic": "Summer Meal Plans",
         "text": "Winter Break Dining",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Summer Meal Plans"
     },
     {
-        "id": 6,
-        "topic": "Summer Meal Plans",
         "text": "Contactless payment",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Summer Meal Plans"
     },
     {
-        "id": 7,
-        "topic": "Summer Meal Plans",
         "text": "Breadcrumb",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Summer Meal Plans"
     },
     {
-        "id": 8,
-        "topic": "Summer Meal Plans",
         "text": "Home",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Summer Meal Plans"
     },
     {
-        "id": 9,
-        "topic": "Summer Meal Plans",
         "text": "Residential Life",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Summer Meal Plans"
     },
     {
-        "id": 10,
-        "topic": "Summer Meal Plans",
         "text": "Dining",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Summer Meal Plans"
     },
     {
-        "id": 11,
-        "topic": "Meal Plans & Rates",
         "text": "Cornell Dining's meal plans feature a combination ofdining roommeals*, Big Red Bucks for tax-free food purchases, and bonus meals for guests.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Meal Plans & Rates"
     },
     {
-        "id": 12,
-        "topic": "Unlimited- $3,664 per semester; $7,328 per year",
         "text": "Access to all meals during designated service periods in the ten residential dining rooms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Unlimited- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 13,
-        "topic": "Unlimited- $3,664 per semester; $7,328 per year",
         "text": "$400 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Unlimited- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 14,
-        "topic": "Unlimited- $3,664 per semester; $7,328 per year",
         "text": "8 bonus meals for guests per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Unlimited- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 15,
-        "topic": "Unlimited- $3,664 per semester; $7,328 per year",
         "text": "Required for first-year undergraduates",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Unlimited- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 16,
-        "topic": "Bear Traditional- $3,400 per semester; $6,800 per year",
         "text": "Up to 14 meals per week during designated service periods in the ten residential dining rooms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Traditional- $3,400 per semester; $6,800 per year"
     },
     {
-        "id": 17,
-        "topic": "Bear Traditional- $3,400 per semester; $6,800 per year",
         "text": "$400 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Traditional- $3,400 per semester; $6,800 per year"
     },
     {
-        "id": 18,
-        "topic": "Bear Traditional- $3,400 per semester; $6,800 per year",
         "text": "4 bonus meals for guests per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Traditional- $3,400 per semester; $6,800 per year"
     },
     {
-        "id": 19,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "Up to 10 meals per week during designated service periods in the ten residential dining rooms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 20,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "$500 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 21,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "4 bonus meals for guests per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 22,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "Available to undergraduates living on-campus** who were enrolled at Cornell before Summer 2021",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 23,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "Available to all students living off campus",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 24,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "Bear Basic- $2,399 per semester; $4,798 per year",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 25,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "Up to 7 meals per week during designated service periods in the ten residential dining rooms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 26,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "$500 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 27,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "4 bonus meals for guests per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 28,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "Available to undergraduates living on-campus** who were enrolled at Cornell before Summer 2021",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 29,
-        "topic": "Bear Choice- $2,964 per semester; $5,928 per year",
         "text": "Available to all students living off campus",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Bear Choice- $2,964 per semester; $5,928 per year"
     },
     {
-        "id": 30,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "Access to all meals during designated service periods in the ten residential dining rooms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 31,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "$400 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 32,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "8 bonus meals for guests per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 33,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "Required for students living in the WCHS",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 34,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "House Affiliate- $698 per semester; $1,396 per year",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 35,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "A meal plan for current off-campus residents who previously lived for at least one semester in the WCHS.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 36,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "3 meals per week at any dining room on West Campus",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 37,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "$100 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 38,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "Available to students living off-campus, who previously lived in the WCHS for at least one semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 39,
-        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year",
         "text": "To apply for a House Affiliate meal plan, please emaildining@cornell.eduwith the subject “House Affiliate meal plan.” Please include your name, NetID, and Cornell ID card number in your email.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "House Meal Plan- $3,664 per semester; $7,328 per year"
     },
     {
-        "id": 40,
-        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)",
         "text": "Up to 10 meals per week during designated service periods in the ten residential dining rooms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)"
     },
     {
-        "id": 41,
-        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)",
         "text": "$500 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)"
     },
     {
-        "id": 42,
-        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)",
         "text": "$436City Bucksper semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)"
     },
     {
-        "id": 43,
-        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)",
         "text": "4 bonus meals for guests per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)"
     },
     {
-        "id": 44,
-        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)",
         "text": "Available to residents of 112 Edgemoor, Cascadilla Hall, Schuyler House, and Sheldon Court",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Collegetown Meal Plan- $3,400 per semester; $6,800 per year (formerly South Campus Meal Plan)"
     },
     {
-        "id": 45,
-        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal.",
         "text": "A plan for members ofCornell-recognized Sorority & Fraternity Life (SFL) chapters:",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal."
     },
     {
-        "id": 46,
-        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal.",
         "text": "SFL Supplemental (aka. Bear Supplemental)- $2,088.77 per semester; $4,177.54 per year",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal."
     },
     {
-        "id": 47,
-        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal.",
         "text": "127 meals per semester during designated service periods in the ten residential dining rooms (Additional charges apply for Shabbat, holiday, and special meals at 104West!)",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal."
     },
     {
-        "id": 48,
-        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal.",
         "text": "$500 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal."
     },
     {
-        "id": 49,
-        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal.",
         "text": "Available to all SFL members living off-campus",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal."
     },
     {
-        "id": 50,
-        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal.",
         "text": "SFL members living on campus** are eligible for this plan only if their chapter requires a meal plan for out-of-house members. Please note that the chapter's required meal plan must include at least 7 meals per week to qualify.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "To apply for the Collegetown Meal Plan, visit theHousing and Dining Portal."
     },
     {
-        "id": 51,
-        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance.",
         "text": "Off-Campus Value- $879 per semester; $1,758 per year",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance."
     },
     {
-        "id": 52,
-        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance.",
         "text": "45 meals per semester during designated service periods in the ten residential dining rooms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance."
     },
     {
-        "id": 53,
-        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance.",
         "text": "$150 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance."
     },
     {
-        "id": 54,
-        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance.",
         "text": "4 bonus meals for guests per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance."
     },
     {
-        "id": 55,
-        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance.",
         "text": "Flex 10/500- $668 per semester; $1,336 per year",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance."
     },
     {
-        "id": 56,
-        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance.",
         "text": "10 meals per semester during designated service periods in the ten residential dining rooms",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance."
     },
     {
-        "id": 57,
-        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance.",
         "text": "$500 Big Red Bucks per semester",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Debit meal plans are limited to students who do not live in on-campus housing** and are not enrolled in another meal plan.(Exception: Students who reside in Cascadilla Hall, Sheldon Court, Schuyler House, 112 Edgemoor, and Equity & Engagement Living-Learning Community for the 2023-2024 academic year and were enrolled at Cornell in the Spring of 2021 or prior can enroll in the Off-Campus Value or Flex 10/500 plans)Note that you must enroll in a meal plan before you can add funds to your Big Red Bucks balance."
     },
     {
-        "id": 58,
-        "topic": "Just Bucks- $500 per semester",
         "text": "$500 Big Red Bucks",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Just Bucks- $500 per semester"
     },
     {
-        "id": 59,
-        "topic": "Just Bucks- $500 per semester",
         "text": "* Please note that additional charges may apply for some Shabbat, holiday, and special meals at104West!Make reservations for these special meals atkosher.scl.cornell.edu.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Just Bucks- $500 per semester"
     },
     {
-        "id": 60,
-        "topic": "Just Bucks- $500 per semester",
         "text": "** On-campus housing includes:  North and South Campus Residence Halls, the West Campus House System, Program Houses, McGraw Place Residences, and the Townhouse Community.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Just Bucks- $500 per semester"
     },
     {
-        "id": 61,
-        "topic": "Just Bucks- $500 per semester",
         "text": "Student meal plans are valid for the entire academic year and become binding when you sign the Dining Application or are automatically enrolled. The meal planwill be billed in two increments on your bursar bill in July and January.A non-refundable $50 administrative fee will be charged once each academic year for any of these meal plans.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Just Bucks- $500 per semester"
     },
     {
-        "id": 62,
-        "topic": "Just Bucks- $500 per semester",
         "text": "For all debit meal plan options, Big Red Bucks can be used in any Cornell Dining facility to purchase your own meals, but not to purchase meals for guests. Any debit balance carries over from the fall semester to the spring semester. Any unused meal swipes do not carry over. Your swipes and BRBs for the spring semester will be added automatically, based on the terms of your plan. Any Big Red Bucks balance must be used by May 24, 2026.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Just Bucks- $500 per semester"
     },
     {
-        "id": 63,
-        "topic": "Just Bucks- $500 per semester",
         "text": "Revised March 2025.",
-        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans"
+        "label": "1",
+        "source": "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans",
+        "date": "2025-26",
+        "topic": "Just Bucks- $500 per semester"
     }
 ]
