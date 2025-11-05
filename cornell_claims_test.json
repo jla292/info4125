@@ -1,0 +1,30 @@
+[
+  {"id": 1, "text": "Cornell Dining's Unlimited plan is required for first-year undergraduates.", "label": "true", "source": "Cornell Dining meal plans page", "date": "2025-26", "topic": "dining"},
+  {"id": 2, "text": "The Unlimited meal plan costs $3,664 per semester.", "label": "true", "source": "Cornell Dining meal plans page", "date": "2025-26", "topic": "dining"},
+  {"id": 3, "text": "The Unlimited meal plan provides $400 Big Red Bucks per semester.", "label": "true", "source": "Cornell Dining meal plans page", "date": "2025-26", "topic": "dining"},
+  {"id": 4, "text": "Bear Traditional provides up to 14 meals per week in residential dining rooms.", "label": "true", "source": "Cornell Dining meal plans page", "date": "2025-26", "topic": "dining"},
+  {"id": 5, "text": "Bear Choice includes $500 Big Red Bucks per semester.", "label": "true", "source": "Cornell Dining meal plans page", "date": "2025-26", "topic": "dining"},
+  {"id": 6, "text": "Residential dining access is limited to five dining rooms on the Unlimited plan.", "label": "false", "source": "Claim (contradicts dining page)", "date": "2025-26", "topic": "dining"},
+
+  {"id": 7, "text": "Cornell’s estimated cost of attendance (COA) is used to determine need-based aid eligibility.", "label": "true", "source": "Cornell Financial Aid COA page", "date": "2025-26", "topic": "financial_aid"},
+  {"id": 8, "text": "The COA depends on college, residency, academic program, and housing plans.", "label": "true", "source": "Cornell Financial Aid COA page", "date": "2025-26", "topic": "financial_aid"},
+  {"id": 9, "text": "The Student Health Plan (SHP) cost is included in the COA used for financial aid.", "label": "false", "source": "Claim (contradicts COA page)", "date": "2025-26", "topic": "financial_aid"},
+  {"id": 10, "text": "The annual tuition for Endowed colleges (or non-NY residents) is $71,266.", "label": "true", "source": "Cornell Financial Aid COA page", "date": "2025-26", "topic": "financial_aid"},
+  {"id": 11, "text": "The annual mandatory fees for Endowed colleges (or non-NY residents) are $1,004.", "label": "true", "source": "Cornell Financial Aid COA page", "date": "2025-26", "topic": "financial_aid"},
+  {"id": 12, "text": "Cornell waives tuition for all NY State residents regardless of college.", "label": "false", "source": "Claim (not stated by COA page)", "date": "2025-26", "topic": "financial_aid"},
+
+  {"id": 13, "text": "INFO 5240 analyzes values embodied in technology design and their social impact.", "label": "true", "source": "Cornell Class Roster (INFO 5240)", "date": "Fall 2025", "topic": "classes"},
+  {"id": 14, "text": "INFO 6350 introduces computer-assisted analysis of historical text collections.", "label": "true", "source": "Cornell Class Roster (INFO 6350)", "date": "Fall 2025", "topic": "classes"},
+  {"id": 15, "text": "INFO 5170 covers AI in organizations, including bias, privacy, and responsibility.", "label": "true", "source": "Cornell Class Roster (INFO 5170)", "date": "Fall 2025", "topic": "classes"},
+  {"id": 16, "text": "INFO 5170 is a 6-credit course open only to PhD students.", "label": "false", "source": "Claim (contradicts roster)", "date": "Fall 2025", "topic": "classes"},
+  {"id": 17, "text": "INFO 5321 focuses on rapid prototyping tools like laser cutting and 3D printing.", "label": "true", "source": "Cornell Class Roster (INFO 5321)", "date": "Fall 2025", "topic": "classes"},
+  {"id": 18, "text": "INFO 5140 is a cooking class about food safety certifications.", "label": "false", "source": "Claim (contradicts roster)", "date": "Fall 2025", "topic": "classes"},
+
+  {"id": 19, "text": "Cornell Cinema lists 'The Adventures of Prince Achmed' with tickets via Eventive.", "label": "true", "source": "Cornell CampusGroups event listing", "date": "2025-03", "topic": "events"},
+  {"id": 20, "text": "Carl Becker House scheduled a 'Senior Series Kickoff Reception' in March.", "label": "true", "source": "Cornell CampusGroups event listing", "date": "2025-03", "topic": "events"},
+  {"id": 21, "text": "The 'Pi Day Trolley Event' at Ganędagë́ Hall advertises free pie.", "label": "true", "source": "Cornell CampusGroups event listing", "date": "2025-03", "topic": "events"},
+  {"id": 22, "text": "Cornell Women in Sports Day is an MIT event hosted in Boston.", "label": "false", "source": "Claim (contradicts event listing)", "date": "2025-03", "topic": "events"},
+  {"id": 23, "text": "Black Student Empowerment promoted an 'Echoes of Wellness' sound bath experience.", "label": "true", "source": "Cornell CampusGroups event listing", "date": "2025-03", "topic": "events"},
+  {"id": 24, "text": "Cornell Film Club screened 'La Dolce Vita' with discussion and free food.", "label": "true", "source": "Cornell CampusGroups event listing", "date": "2025-03", "topic": "events"},
+  {"id": 25, "text": "Cornell Dining announced a campus-wide fork ban; students must bring chopsticks.", "label": "false", "source": "Claim (satire/rumor)", "date": "2025-03", "topic": "policy"}
+]
