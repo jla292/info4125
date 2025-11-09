@@ -6,6 +6,7 @@ from urllib.parse import urljoin
 from typing import List, Dict, Optional
 
 #Configuration
+# Setting the semester, subject, and label for scraping Cornell class data
 ROSTER = "FA25"
 SUBJECT = "INFO"
 BASE = "https://classes.cornell.edu"
@@ -15,6 +16,7 @@ LABEL = "1"
 
 # Helpers
 def fetch_html(url: str, timeout: int = 20) -> Optional[BeautifulSoup]:
+# sends get request and parses HTML into BeautifulSoup
     """Fetch and return a BeautifulSoup object for the given URL."""
     r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=timeout)
     r.raise_for_status()
@@ -22,6 +24,7 @@ def fetch_html(url: str, timeout: int = 20) -> Optional[BeautifulSoup]:
 
 
 def select_text(soup: BeautifulSoup, selectors: List[str], min_len: int = 0) -> str:
+# loops through selectors until finding non-empty text of minimum length
     """Try multiple CSS selectors to find meaningful text."""
     for sel in selectors:
         el = soup.select_one(sel)
@@ -34,6 +37,7 @@ def select_text(soup: BeautifulSoup, selectors: List[str], min_len: int = 0) -> 
 
 
 def parse_labeled_fields(soup: BeautifulSoup) -> Dict[str, str]:
+# scans all text elements for key words, like "credit", "grading", and "prerequisites"
     """Extract credits, grading, and prerequisites heuristically."""
     fields = {"credits": "", "grading": "", "prereq": ""}
     for el in soup.find_all(["div", "li", "p", "tr"]):
@@ -55,6 +59,8 @@ def parse_labeled_fields(soup: BeautifulSoup) -> Dict[str, str]:
 
 
 def extract_classes(soup: BeautifulSoup) -> List[Dict[str, str]]:
+# finds all <a> tags linking to individual course pages and extracts course code/title
+# removes any duplicate results to avoid repeats from multiple listings
     """Get all course links from the subject page."""
     results = []
     for a in soup.select('a[href^="/browse/roster/"]'):
@@ -82,6 +88,8 @@ def extract_classes(soup: BeautifulSoup) -> List[Dict[str, str]]:
 
 
 def build_course_facts(course: Dict[str, str], label: str) -> List[Dict[str, str]]:
+#scrapes course detail page for title, description, credits, grading, and prereqs
+# returns a list of structured facts for later JSON export
     """Create all fact entries for a single course."""
     facts = []
     code = course["code"]
@@ -114,7 +122,7 @@ def build_course_facts(course: Dict[str, str], label: str) -> List[Dict[str, str
             "topic": f"{code} Description"
         })
 
-    # Credits, Grading, Prerequisites
+    # Getting details on classes, like credits, grading, prerequisites
     fields = parse_labeled_fields(detail)
     if fields["credits"]:
         facts.append({
@@ -145,6 +153,7 @@ def build_course_facts(course: Dict[str, str], label: str) -> List[Dict[str, str
 
 
 def main():
+#fetches subject page, extracts list of courses, gathers structured info from each course, saves all extracted facts as JSON
     print(f"🔎 Fetching {SUBJECT} classes for {ROSTER}: {SUBJECT_URL}")
     subject_soup = fetch_html(SUBJECT_URL)
     if not subject_soup:
