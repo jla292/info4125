@@ -1,0 +1,233 @@
+[
+    {
+        "text": "Cornell's estimated cost of attendance is an estimate of the total costs to attend before financial aid is applied.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "COA Included Definition"
+    },
+    {
+        "text": "The estimated cost of attendance is based on your undergraduate college, academic program, New York state residency, and housing plans.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "COA Included Definition"
+    },
+    {
+        "text": "The estimated cost of attendance includes amounts a typical full-time undergraduate student may expect for a traditional academic year (Fall and Spring).",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "COA Included Definition"
+    },
+    {
+        "text": "The estimated cost is used to determine your eligibility for need-based grant and scholarship aid.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "COA Included Definition"
+    },
+    {
+        "text": "The estimated cost of attendance only includes mandatory fees charged to all students.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "COA Exclusions"
+    },
+    {
+        "text": "Fees not charged to all students, such as optional course fees, gym memberships, and premium housing options, are excluded.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "COA Exclusions"
+    },
+    {
+        "text": "The cost of the Cornell Student Health Insurance Plan (SHP) is not included in the estimated cost of attendance for financial aid.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "COA Exclusions"
+    },
+    {
+        "text": "Need-based grant or scholarship aid is not available for optional fees and the SHP cost.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "COA Exclusions"
+    },
+    {
+        "text": "The College of Architecture, Art, and Planning is an Endowed College and is charged the full tuition rate.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The College of Arts and Sciences is an Endowed College and is charged the full tuition rate.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The College of Engineering is an Endowed College and is charged the full tuition rate.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The SC Johnson College of Business is an Endowed College and is charged the full tuition rate.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The Peter and Stephanie Nolan School of Hotel Administration is an Endowed College and is charged the full tuition rate.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The Cornell Jeb E. Brooks School of Public Policy (Graduate and non-BS programs) is an Endowed College and is charged the full tuition rate.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The College of Agriculture and Life Sciences is a Contract College and offers a reduced tuition rate for New York State residents.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The Charles H. Dyson School of Applied Economics and Management (shared/CALS) is a Contract College and offers a reduced tuition rate for New York State residents.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The College of Human Ecology is a Contract College and offers a reduced tuition rate for New York State residents.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The School of Industrial and Labor Relations is a Contract College and offers a reduced tuition rate for New York State residents.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The Cornell Jeb E. Brooks School of Public Policy (Bachelor of Science candidates only) is a Contract College and offers a reduced tuition rate for New York State residents.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "College Category Mapping"
+    },
+    {
+        "text": "The annual tuition for an Endowed College (or non-NY resident) is $71,266.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Endowed/Non-NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual mandatory fees for an Endowed College (or non-NY resident) is $1,004.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Endowed/Non-NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual estimated housing for an Endowed College (or non-NY resident) is $13,246.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Endowed/Non-NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual estimated food for an Endowed College (or non-NY resident) is $7,328.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Endowed/Non-NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual books/course materials for an Endowed College (or non-NY resident) is $1,216.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Endowed/Non-NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual personal expenses for an Endowed College (or non-NY resident) is $2,208.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Endowed/Non-NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual total estimated cost for an Endowed College (or non-NY resident) is $96,268.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Endowed/Non-NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual tuition for a NY State resident in a Contract College is $48,010.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Contract/NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual mandatory fees for a NY State resident in a Contract College is $1,004.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Contract/NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual estimated housing for a NY State resident in a Contract College is $13,246.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Contract/NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual estimated food for a NY State resident in a Contract College is $7,328.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Contract/NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual books/course materials for a NY State resident in a Contract College is $1,216.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Contract/NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual personal expenses for a NY State resident in a Contract College is $2,208.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Contract/NY Cost (Narrative)"
+    },
+    {
+        "text": "The annual total estimated cost for a NY State resident in a Contract College is $73,012.",
+        "label": "1",
+        "source": "https://finaid.cornell.edu/cost-to-attend",
+        "date": "2025-26",
+        "topic": "Contract/NY Cost (Narrative)"
+    }
+]
