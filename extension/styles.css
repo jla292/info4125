@@ -1,0 +1,139 @@
+/* Cornell Brand Colors */
+:root {
+  --cornell-red: #b31b1b;
+  --cornell-dark: #222222;
+  --cornell-light: #f7f7f7;
+  --cornell-grey: #e6e6e6;
+  --text-strong: #1b1b1b;
+  --text-soft: #555;
+}
+
+/* Base Layout */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: var(--cornell-light);
+  min-width: 340px;
+}
+
+.container {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--cornell-grey);
+}
+
+.logo {
+  width: 44px;
+  height: 44px;
+  opacity: 0.9;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--cornell-dark);
+}
+
+.sub {
+  font-size: 12px;
+  color: var(--text-soft);
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  border: 1px solid var(--cornell-grey);
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--cornell-dark);
+  margin-bottom: 4px;
+}
+
+/* Meta Title */
+.meta-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-strong);
+}
+
+/* Snippet */
+.snippet {
+  font-size: 13px;
+  color: var(--text-strong);
+  line-height: 1.35;
+  white-space: pre-wrap;
+}
+
+/* Verdict */
+.verdict-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.verdict {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--cornell-red);
+}
+
+.confidence-wrapper {
+  margin-top: 10px;
+}
+
+.confidence-header {
+  font-size: 10px;
+  color: var(--text-soft);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.bar {
+  height: 10px;
+  background: var(--cornell-grey);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.indicator {
+  height: 100%;
+  width: 0%;
+  border-radius: 6px;
+  background: var(--cornell-red);
+  transition: width 0.4s ease;
+}
+
+/* Source link */
+.source-value {
+  font-size: 13px;
+  color: var(--cornell-red);
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+/* Message text */
+.message {
+  font-size: 12px;
+  text-align: center;
+  color: var(--text-soft);
+  display: none;
+  margin-top: 4px;
+}
