@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cornell Fact Checker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- Header -->
+      <header class="header">
+        <img src="cornell_seal.png" alt="" class="logo" />
+        <div class="header-text">
+          <h1>Cornell Fact Checker</h1>
+          <span class="sub">Verification powered by Data Team 2</span>
+        </div>
+      </header>
+
+      <!-- Page title -->
+      <section class="meta-card card">
+        <div id="pageTitle" class="meta-title"></div>
+      </section>
+
+      <!-- Selected Text -->
+      <section class="snippet-card card">
+        <label class="label">Selected Text</label>
+        <div id="snippet" class="snippet">
+          Select text on a webpage to verify.
+        </div>
+      </section>
+
+      <!-- Verdict -->
+      <section class="verdict-card card">
+        <div class="verdict-row">
+          <div class="label">Verdict</div>
+          <div id="verdict" class="verdict">No verdict yet</div>
+        </div>
+
+        <div class="confidence-wrapper">
+          <div class="confidence-header">
+            <span>Likely True</span>
+            <span>Likely False</span>
+          </div>
+          <div class="bar">
+            <div id="indicator" class="indicator"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Most Relevant Source -->
+      <section class="source-card card">
+        <label class="label">Most Relevant Source</label>
+        <a id="source" class="source-value" href="#" target="_blank">N/A</a>
+      </section>
+
+      <!-- Temporary message (hidden by default) -->
+      <div id="message" class="message"></div>
+
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

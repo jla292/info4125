@@ -16,12 +16,31 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipe
 # ---------------------------------------------------------------------
 nltk.download("vader_lexicon")
 
+'''
 TOP_K = 8
 MIN_SIM = 0.25
 ENTAIL_T = 0.80
 CONTRA_T = 0.80
 NLI_MODEL = "roberta-large-mnli"
 EPS = 1e-9
+'''
+'''
+TOP_K = 12
+MIN_SIM = 0.20
+ENTAIL_T = 0.70
+CONTRA_T = 0.85
+#NLI_MODEL = "microsoft/deberta-v3-base-mnli"
+NLI_MODEL = "roberta-large-mnli"
+EPS = 1e-9
+'''
+
+TOP_K = 8
+MIN_SIM = 0.25
+NLI_MODEL = "roberta-large-mnli"  # or "microsoft/deberta-v3-base-mnli" for smaller/faster
+EPS = 1e-9
+ENTAIL_T = 0.60  # or even 0.55
+CONTRA_T = 0.75  # keep contradiction stricter
+MARGIN   = 0.10
 
 app = Flask(__name__)
 CORS(app)  # allow Chrome extension calls

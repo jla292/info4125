@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Cornell Fact Checker",
+  "version": "5.2",
+  "description": "Check Cornell-related claims against a local verification backend.",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Cornell Fact Checker"
+  },
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }
+]
+
+}

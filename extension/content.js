@@ -1,10 +1,13 @@
 // content.js
-// Highlights user selection, calls Flask backend, stores results for popup, and shows a quick toast.
 
-const API_URL = "http://127.0.0.1:5000/predict"; 
+const API_URL = "http://127.0.0.1:5000/predict";
+
 let lastSelectionRange = null;
 
-// Track last user text selection
+// Debug: confirm injection
+console.log("Cornell Fact Checker content script loaded.");
+
+// Track last selection so we can highlight it later
 document.addEventListener("mouseup", () => {
   const sel = window.getSelection();
   if (sel && sel.rangeCount > 0 && !sel.isCollapsed) {
@@ -12,16 +15,18 @@ document.addEventListener("mouseup", () => {
   }
 });
 
-// Listen for context menu "Check text" action from background.js
-chrome.runtime.onMessage.addListener(async (msg) => {
-  if (msg?.type !== "CHECK_TEXT" || !msg.text) return;
+// Listen for CHECK_TEXT from background
+chrome.runtime.onMessage.addListener(async (msg, sender, sendResponse) => {
+  if (msg?.type !== "CHECK_TEXT") return;
+  const text = (msg.text || "").trim();
+  if (!text) return;
 
   let data;
   try {
     const res = await fetch(API_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text: msg.text })
+      body: JSON.stringify({ text })
     });
     data = await res.json();
   } catch (e) {
@@ -29,74 +34,70 @@ chrome.runtime.onMessage.addListener(async (msg) => {
     data = { error: String(e) };
   }
 
-  // Normalize hybrid backend JSON
-  const normalized = normalizeModelOutput(data, msg.text);
+  const normalized = normalizeModelOutput(data, text);
 
-  // Highlight selection on webpage
+  // Highlight selection
   if (lastSelectionRange) {
     try {
       const mark = document.createElement("mark");
       mark.className = "cornell-misinfo-mark";
-      mark.style.backgroundColor = normalized.predicted_label === 1
-        ? "rgba(255,0,0,0.35)"   // red if likely false
-        : "rgba(0,128,0,0.25)";  // green if likely true
+      mark.style.backgroundColor =
+        normalized.predicted_label === 1
+          ? "rgba(255, 0, 0, 0.35)"   // likely false
+          : "rgba(0, 128, 0, 0.25)";  // likely true
       mark.style.padding = "0 2px";
       lastSelectionRange.surroundContents(mark);
     } catch {
-      // fallback: wrap entire selection contents
       const wrapper = document.createElement("mark");
       wrapper.className = "cornell-misinfo-mark";
-      wrapper.style.backgroundColor = normalized.predicted_label === 1
-        ? "rgba(255,0,0,0.35)"
-        : "rgba(0,128,0,0.25)";
+      wrapper.style.backgroundColor =
+        normalized.predicted_label === 1
+          ? "rgba(255, 0, 0, 0.35)"
+          : "rgba(0, 128, 0, 0.25)";
       const contents = lastSelectionRange.extractContents();
       wrapper.appendChild(contents);
       lastSelectionRange.insertNode(wrapper);
     }
   }
 
-  // Store result for popup.js
+  // Store result for popup
   await chrome.storage.local.set({ lastResult: normalized });
 
-  // Show a small toast confirmation
-  showToast(`${normalized.verdict_text} — ${normalized.percent_false}% false`);
+  // Small toast
+  showToast(normalized.verdict_text);
 
-  // Notify popup (best-effort)
+  // Notify popup + background
+  chrome.runtime.sendMessage({ type: "RESULT_UPDATED", payload: normalized });
   chrome.runtime.sendMessage({ type: "RESULT_READY" });
 });
 
-/* ------------------ Helpers ------------------ */
+/* ------------ Helpers ------------ */
 
-/** Normalize backend JSON into a consistent front-end format. */
 function normalizeModelOutput(raw, inputText) {
   if (!raw || raw.error) {
     return {
       input: inputText,
       predicted_label: 1,
       verdict_text: "Error: Backend unavailable",
-      confidence_true: 0,
-      confidence_fake: 1,
-      percent_false: 100,
       primary_source: null,
       url: location.href,
       title: document.title,
-      error: raw?.error || "No response"
+      at: Date.now(),
+      raw
     };
   }
 
-  // Extract probabilities and verdict
   const probs = raw.probabilities || {};
-  const pTrue = clamp01(Number(probs.true ?? raw.confidence_true ?? 0));
-  const pFalse = clamp01(Number(probs.false ?? raw.confidence_fake ?? (1 - pTrue)));
+  const pTrue = clamp01(Number(probs.true ?? 0));
+  const pFalse = clamp01(Number(probs.false ?? (1 - pTrue)));
   const verdict = String(raw.verdict || "").toLowerCase();
 
-  // Determine predicted label (1 = false, 0 = true)
+  // Decide label based on backend verdict first
   let label;
-  if (verdict.includes("false")) label = 1;
-  else if (verdict.includes("true")) label = 0;
+  if (verdict === "likely_false") label = 1;
+  else if (verdict === "likely_true") label = 0;
   else label = pFalse >= 0.5 ? 1 : 0;
 
-  // Choose primary supporting or contradicting source
   const primary = pickPrimarySource(raw, label);
 
   return {
@@ -104,7 +105,6 @@ function normalizeModelOutput(raw, inputText) {
     predicted_label: label,
     confidence_true: pTrue,
     confidence_fake: pFalse,
-    percent_false: Math.round(pFalse * 100),
     verdict_text: verdictText(label, raw.verdict),
     model_shape: "verification_system",
     primary_source: primary,
@@ -116,14 +116,13 @@ function normalizeModelOutput(raw, inputText) {
 }
 
 function verdictText(label, verdictStr = "") {
-  const v = verdictStr.toLowerCase();
-  if (v.includes("likely_false")) return "Likely False";
-  if (v.includes("likely_true")) return "Likely True";
-  if (v.includes("cannot_verify")) return "Cannot Verify";
+  const v = String(verdictStr || "").toLowerCase();
+  if (v === "likely_false") return "Likely False";
+  if (v === "likely_true") return "Likely True";
+  if (v === "cannot_verify") return "Cannot Verify";
   return label === 1 ? "Likely False" : "Likely True";
 }
 
-/** Pick the most relevant source for display. */
 function pickPrimarySource(result, predLabel) {
   let pool = [];
   if (predLabel === 1 && Array.isArray(result.supporting_sources_false) && result.supporting_sources_false.length) {
@@ -133,6 +132,7 @@ function pickPrimarySource(result, predLabel) {
   } else if (Array.isArray(result.nearest_sources_considered) && result.nearest_sources_considered.length) {
     pool = result.nearest_sources_considered;
   }
+
   if (!pool.length) return null;
 
   const scored = pool
@@ -142,10 +142,12 @@ function pickPrimarySource(result, predLabel) {
       detail: x
     }))
     .filter(x => x.source);
+
   if (!scored.length) return null;
 
   scored.sort((a, b) => b.score - a.score);
   const best = scored[0];
+
   return { source: best.source, score: best.score, detail: best.detail };
 }
 
@@ -153,7 +155,6 @@ function clamp01(x) {
   return Math.max(0, Math.min(1, Number(x) || 0));
 }
 
-/** Lightweight toast popup */
 function showToast(text) {
   const toast = document.createElement("div");
   toast.textContent = text;
@@ -162,7 +163,7 @@ function showToast(text) {
     left: "16px",
     bottom: "16px",
     zIndex: 2147483647,
-    background: "#fff",
+    background: "#ffffff",
     border: "1px solid #ddd",
     borderRadius: "8px",
     padding: "10px 12px",
